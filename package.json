@@ -1,0 +1,31 @@
+{
+  "name": "hcserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.5.0",
+    "express": "^4.6.1",
+    "gridfs-stream": "^0.5.1",
+    "logfmt": "^1.1.2",
+    "mongodb": "^1.4.8",
+    "mongoose": "^3.8.14",
+    "mongoskin": "^1.4.4",
+    "multiparty": "^3.3.2",
+    "promise": "^5.0.0",
+    "util": "^0.10.3",
+    "redis": "~0.12.1",
+    "hiredis": "~0.1.17"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^1.21.4",
+    "superagent": "^0.18.2"
+  }
+}
